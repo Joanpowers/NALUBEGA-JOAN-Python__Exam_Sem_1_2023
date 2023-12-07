@@ -55,8 +55,6 @@ print(f"The corresponding grade for a mark of {student_mark} is: {Answer}")
 
 #iv)
 #modify the "grade_students" function to handle the case where the input mark is not a valid number.
-# if the input is not a valid number , the function should return  'Invalid Input'
-# test the function with both a valid mark and an invalid input. 
 
 def grade_students(mark):
     try:
@@ -87,10 +85,7 @@ print(f"The result for an invalid input '{invalid_mark}' is: {output_invalid}")
 
 #(v)
 #Enhance the "grade_students" function to also provide a message along with the grade
-#'Excellent' for grades 'A' and 'B'
-#'Good' for grade 'C'
-# Satisfactory' for grade 'D'
-# Needs Improvement' for grade 'F'
+
 
 def grade_students(mark):
     try:
@@ -114,14 +109,14 @@ valid_mark = int(input("Enter your valid mark:"))
 grade, message = grade_students(valid_mark)
 print(f"The corresponding grade for a mark of {valid_mark} is: {grade} - {message}")
 
-# Test the function with an invalid input
-invalid_mark = 'xyz'
+# finding  the function with an invalid input
+invalid_mark = 'abc'
 answer_invalid = grade_students(invalid_mark)
 print(f"The result for an invalid input '{invalid_mark}' is: {answer_invalid}")
 
 
-#(VI)
-#The function should now return both the grade and the corresponding message.
+#iv)
+
 #test the function with a mark of 78.
 
 def grade_students(mark):
