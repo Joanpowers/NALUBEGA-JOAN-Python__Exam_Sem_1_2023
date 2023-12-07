@@ -107,7 +107,7 @@ def grade_students(mark):
 # Test the function with a valid mark
 valid_mark = int(input("Enter your valid mark:"))
 grade, message = grade_students(valid_mark)
-print(f"The corresponding grade for a mark of {valid_mark} is: {grade} - {message}")
+print(f"The corresponding grade for a mark of {valid_mark} is: {grade} '' {message}")
 
 # finding  the function with an invalid input
 invalid_mark = 'abc'
